@@ -6,7 +6,7 @@ import pandas as pd
 path = "folder_containing_files"
 normallist = os.listdir(path)
 
-class = 0
+class = 1 # if getting files from positive class during classification
 
 for filename in filelist:
     if filename != ".ipynb_checkpoints":
